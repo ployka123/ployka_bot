@@ -2,7 +2,7 @@ import telebot
 import pyowm
 
 from telebot import apihelper
-apihelper.proxy = { "https": "socks5://111.223.75.178:8888"}
+apihelper.proxy = { "https": "socks5://telegram.vpn99.net:55655"}
 
 owm = pyowm.OWM('6e0df22df60df943f1c84578333a0dc5', language = "ru")
 bot = telebot.TeleBot("863915954:AAG9GXiCpEq0zN9ax7JmfsMJvu3LedrkL1A")
